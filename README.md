@@ -1,6 +1,6 @@
 # Claude Code Notification Hook for Windows
 
-![Demo](https://via.placeholder.com/600x300?text=Toast+Notification+Demo)
+![Demo](assets/demo.png)
 
 A PowerShell script that displays Windows Toast notifications for Claude Code hook events.
 
@@ -11,7 +11,7 @@ A PowerShell script that displays Windows Toast notifications for Claude Code ho
 1. Download the script:
 
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/soulee/claude-code-notify-powershell/main/claude-hook-toast.ps1" -OutFile "$env:USERPROFILE\.claude\claude-hook-toast.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/soulee-dev/claude-code-notify-powershell/main/claude-hook-toast.ps1" -OutFile "$env:USERPROFILE\.claude\claude-hook-toast.ps1"
 ```
 
 2. Add to `~/.claude/settings.json`:
